@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="149.0" prefWidth="389.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="395.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+         <children>
+            <HBox layoutX="261.0" layoutY="17.0" />
+            <HBox layoutX="14.0" layoutY="68.0" prefHeight="25.0" prefWidth="131.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Delay (ms)" wrappingWidth="66.46484375">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="delayText" prefHeight="25.0" prefWidth="173.0" />
+               </children>
+            </HBox>
+            <HBox layoutX="171.0" layoutY="55.0" prefHeight="77.0" prefWidth="203.0">
+               <children>
+                  <Button fx:id="bnStart" mnemonicParsing="false" prefHeight="124.0" prefWidth="203.0" text="Start">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <Button fx:id="keyButton" layoutX="45.0" layoutY="104.0" mnemonicParsing="false" text="Key Select" />
+            <Text layoutX="47.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="William Huff's Auto Clicker " textAlignment="CENTER" wrappingWidth="294.99609375">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
